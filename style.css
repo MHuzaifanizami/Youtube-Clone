@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+.right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-center {
+    display: flex;
+
+}
+
+.search-box {
+    display: flex;
+}
+
+.search-box input {
+    min-width: 600px;
+    padding: 8px;
+    border: 0.5px solid #ccc;
+}
+
+.search-box button {
+    border: none;
+    padding: 10px 20px;
+}
+
+
+.mic {
+    padding: 15px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    margin-left: 12px;
+}
+
+.mic img {
+    width: 25px;
+}
+
+
+.tags {
+    display: flex;
+    gap: 30px;
+    padding: 10px 20px;
+    border-top: 1px solid #ccc;
+}
+
+.tag {
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 1px solid rgb(22, 22, 22);
+}
+
+.dark {
+    background-color: #000;
+    color: white;
+}
+
+.light {
+    color: rgb(67, 67, 67);
+    background-color: rgb(238, 238, 238);
+}
+
+.container {
+    display: flex;
+
+
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+    align-items: center;
+    margin-left: 5px;
+
+}
+
+.side-icons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 30px;
+}
+
+.side-icons img {
+    width: 30px;
+}
+
+.side-icons p {
+    font-size: 14px;
+    margin-top: 10px;
+
+}
+
+.bars {
+    margin-top: 15px;
+    margin-right: 40px;
+}
+
+
+.head-container {
+    min-width: 92%;
+}
+
+main {
+    background-color: rgb(240, 238, 238);
+    min-height: 100vh;
+}
+
+
+.card-container {
+    /* display: grid;
+    grid-template-columns: repeat(autofit, minmax(320px, 1fr)); */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    max-width: 320px;
+}
+
+.card-avatar {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.card-content h3 {
+    font-size: 20px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.channel-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-status {
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+}
